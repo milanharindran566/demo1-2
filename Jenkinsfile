@@ -8,4 +8,8 @@ pipeline {
     }
 
   }
+  environment {
+    DEMO = '1'
+    TEST1 = 'fret'
+  }
 }
