@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Print Message') {
       steps {
-        echo 'The build number is $BUILD_NUMBER'
+        sh 'echo "The build number is $BUILD_NUMBER and this is demo $DEMO by your $TEST1"'
       }
     }
 
